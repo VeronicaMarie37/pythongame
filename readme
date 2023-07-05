@@ -1,0 +1,27 @@
+These examples demonstrate the use of lists, dictionaries, loops, and conditionals in the code.
+
+
+1. Lists:
+   - `tools` is a list that keeps track of the tools the player owns.
+   - `available_tools` is a list that stores the tools available for purchase.
+
+
+
+2. Dictionaries:
+   - `prices` is a dictionary that maps tool names to their respective prices.
+   - `earnings` is a dictionary that maps tool names to the earnings associated with each tool.
+
+
+
+3. Loops:
+   - The `game_loop()` function contains a `while` loop that allows the player to repeatedly enter commands and play the game until they choose to quit.
+   - Within the `game_loop()`, there is a `for` loop used to iterate over the tools in the `tools` list when displaying the owned tools in the `print_status()` function.
+
+
+
+4. Conditionals:
+   - The `if`, `elif`, and `else` statements in the `game_loop()` function are conditionals that determine the actions to be taken based on the user's input command.
+   - The conditionals in the `buy_tool()` function check if the tool is valid, if the tool is already owned, and if the player has enough money to buy the tool.
+   - The conditional in the `check_win_condition()` function checks if the player has acquired all the tools and has reached a certain amount of money to win the game.
+
+
